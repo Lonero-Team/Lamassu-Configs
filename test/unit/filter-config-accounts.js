@@ -3,12 +3,11 @@ import test from 'ava'
 
 import { filterAccounts } from '../../lib/admin/config'
 
-const ALL_CRYPTOS = ['BTC', 'ETH', 'LTC', 'DASH', 'ZEC', 'BCH']
+const ALL_CRYPTOS = ['LNR']
 const data = {
   accounts: [
     {code: 'mock-ticker', display: 'Mock ticker', class: 'ticker', cryptos: ALL_CRYPTOS},
-    {code: 'bitcoind', display: 'bitcoind', class: 'wallet', cryptos: ['BTC']},
-    {code: 'kraken', display: 'Kraken', class: 'exchange', cryptos: ['BTC', 'ZEC', 'ETH', 'LTC', 'BCH', 'DASH']},
+    {code: '/forknoted --config-file configs/lonero.conf', display: 'lonero', class: 'wallet', cryptos: ['LNR']},
     {code: 'mock-wallet', display: 'Mock (Caution!)', class: 'wallet', cryptos: ALL_CRYPTOS}
   ]
 }
