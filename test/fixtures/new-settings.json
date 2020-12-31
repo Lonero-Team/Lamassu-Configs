@@ -18,7 +18,7 @@
       "en-US"
     ],
     "locale_cryptoCurrencies": [
-      "BTC"
+      "LNR"
     ],
     "commissions_minimumTx": 12,
     "commissions_fixedFee": 12,
@@ -49,11 +49,11 @@
     "termsConditions_text": "123oh12",
     "termsConditions_acceptButtonText": "op1i2jh3po",
     "termsConditions_cancelButtonText": "12341",
-    "wallets_BTC_active": true,
-    "wallets_BTC_ticker": "mock-ticker",
-    "wallets_BTC_wallet": "mock-wallet",
-    "wallets_BTC_exchange": "mock-exchange",
-    "wallets_BTC_zeroConf": "mock-zero-conf",
+    "wallets_LNR_active": true,
+    "wallets_LNR_ticker": "mock-ticker",
+    "wallets_LNR_wallet": "mock-wallet",
+    "wallets_LNR_exchange": "mock-exchange",
+    "wallets_LNR_zeroConf": "mock-zero-conf",
     "commissions_overrides": [
       {
         "minimumTx": 33,
@@ -61,7 +61,7 @@
         "cashOut": 33,
         "cashIn": 33,
         "cryptoCurrencies": [
-          "BTC"
+          "LNR"
         ],
         "machine": "9682f15e40539e40d3e4050a993cf74e3e157d6d9b7866fb1ebd5206024ae68a",
         "id": "423a32a9-0bbb-4997-b15a-c6db12334195",
@@ -93,13 +93,13 @@
       {
         "highBalance": 66,
         "lowBalance": 545,
-        "cryptoCurrency": "ETH",
+        "cryptoCurrency": "LNR",
         "id": "b59e4310-bca1-435c-a89e-b861a7de9b93"
       },
       {
         "highBalance": 23,
         "lowBalance": 51,
-        "cryptoCurrency": "DASH",
+        "cryptoCurrency": "LNR",
         "id": "a1f5ac7a-4b05-4ec7-8744-4d77c0555f5b"
       }
     ],
@@ -112,7 +112,7 @@
           "en-CA"
         ],
         "cryptoCurrencies": [
-          "ETH"
+          "LNR"
         ]
       }
     ],
