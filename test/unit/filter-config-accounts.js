@@ -7,7 +7,7 @@ const ALL_CRYPTOS = ['LNR']
 const data = {
   accounts: [
     {code: 'mock-ticker', display: 'Mock ticker', class: 'ticker', cryptos: ALL_CRYPTOS},
-    {code: '/forknoted --config-file configs/lonero.conf', display: 'lonero', class: 'wallet', cryptos: ['LNR']},
+    {code: './forknoted --config-file configs/lonero.conf', display: 'lonero', class: 'wallet', cryptos: ['LNR']},
     {code: 'mock-wallet', display: 'Mock (Caution!)', class: 'wallet', cryptos: ALL_CRYPTOS}
   ]
 }
