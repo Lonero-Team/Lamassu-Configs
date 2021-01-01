@@ -16,10 +16,10 @@ test('simple merge', t => {
 
 test('bigger merge', t => {
   const fieldCode = 'testCode'
-  const fieldLocator1 = {fieldScope: {crypto: 'BTC', machine: 'xx'}, code: fieldCode}
+  const fieldLocator1 = {fieldScope: {crypto: 'LNR', machine: 'xx'}, code: fieldCode}
   const fieldLocator2 = {fieldScope: {crypto: 'global', machine: 'global'}, code: fieldCode}
-  const fieldLocator3 = {fieldScope: {crypto: 'BTC', machine: 'xx'}, code: 'testCode2'}
-  const fieldLocator4 = {fieldScope: {crypto: 'BTC', machine: 'xx'}, code: 'testCode3'}
+  const fieldLocator3 = {fieldScope: {crypto: 'LNR', machine: 'xx'}, code: 'testCode2'}
+  const fieldLocator4 = {fieldScope: {crypto: 'LNR', machine: 'xx'}, code: 'testCode3'}
 
   const fieldValue1 = {fieldType: 'percentage', value: 1}
   const fieldValue2 = {fieldType: 'percentage', value: 2}
