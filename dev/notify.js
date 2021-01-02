@@ -6,8 +6,8 @@ var psqlUrl = require('../lib/options').postgres
 
 function getBalances () {
   return [
-    {fiatBalance: 23.2345, fiatCode: 'USD', cryptoCode: 'BTC'},
-    {fiatBalance: 23, fiatCode: 'USD', cryptoCode: 'ETH'}
+    {fiatBalance: 23.2345, fiatCode: 'USD', cryptoCode: 'LNR'},
+    {fiatBalance: 23, fiatCode: 'USD', cryptoCode: 'LNR'}
   ]
 }
 
