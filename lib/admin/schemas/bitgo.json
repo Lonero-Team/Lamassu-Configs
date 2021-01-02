@@ -11,80 +11,16 @@
       "value": ""
     },
     {
-      "code": "BTCWalletId",
-      "display": "BTC Wallet ID",
+      "code": "LNRWalletId",
+      "display": "LNR Wallet ID",
       "fieldType": "string",
       "secret": false,
       "required": true,
       "value": ""
     },
     {
-      "code": "BTCWalletPassphrase",
-      "display": "BTC Wallet passphrase",
-      "fieldType": "password",
-      "secret": true,
-      "required": true,
-      "value": ""
-    },
-    {
-      "code": "LTCWalletId",
-      "display": "LTC Wallet ID",
-      "fieldType": "string",
-      "secret": false,
-      "required": true,
-      "value": ""
-    },
-    {
-      "code": "LTCWalletPassphrase",
-      "display": "LTC Wallet passphrase",
-      "fieldType": "password",
-      "secret": true,
-      "required": true,
-      "value": ""
-    },
-    {
-      "code": "ZECWalletId",
-      "display": "ZEC Wallet ID",
-      "fieldType": "string",
-      "secret": false,
-      "required": true,
-      "value": ""
-    },
-    {
-      "code": "ZECWalletPassphrase",
-      "display": "ZEC Wallet passphrase",
-      "fieldType": "password",
-      "secret": true,
-      "required": true,
-      "value": ""
-    },
-    {
-      "code": "BCHWalletId",
-      "display": "BCH Wallet ID",
-      "fieldType": "string",
-      "secret": false,
-      "required": true,
-      "value": ""
-    },
-    {
-      "code": "BCHWalletPassphrase",
-      "display": "BCH Wallet passphrase",
-      "fieldType": "password",
-      "secret": true,
-      "required": true,
-      "value": ""
-    },
-    {
-      "code": "DASHWalletId",
-      "display": "DASH Wallet ID",
-      "fieldType": "string",
-      "secret": false,
-      "required": true,
-      "value": ""
-    },
-    {
-      "code": "DASHWalletPassphrase",
-      "display": "DASH Wallet passphrase",
+      "code": "LNRWalletPassphrase",
+      "display": "LNR Wallet passphrase",
       "fieldType": "password",
       "secret": true,
       "required": true,
