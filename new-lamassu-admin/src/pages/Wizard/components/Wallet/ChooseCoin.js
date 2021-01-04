@@ -37,7 +37,7 @@ const ChooseCoin = ({ addData }) => {
   const onSubmit = it => {
     if (!schema.isValidSync(it)) return setError(true)
 
-    if (it.coin !== 'BTC') {
+    if (it.coin !== 'LNR') {
       return addData({ coin: it.coin, zeroConf: 'all-zero-conf' })
     }
 
