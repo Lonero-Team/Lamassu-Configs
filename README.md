@@ -1,10 +1,6 @@
-# lamassu-server
+# LNR Lamassu Configs for Lamassu Server
 
-Lamassu remote server.
-
-## Pull Requests
-
-We do not generally accept outside pull requests for new features. Please consult with us before putting a lot of work into a pull request.
+Lamassu remote server. ...
 
 ## Installation
 
