@@ -3,12 +3,7 @@ import React from 'react'
 
 import { Button } from 'src/components/buttons'
 import { H1, P } from 'src/components/typography'
-import { ReactComponent as BitcoinLogo } from 'src/styling/logos/icon-bitcoin-colour.svg'
-import { ReactComponent as BitcoinCashLogo } from 'src/styling/logos/icon-bitcoincash-colour.svg'
-import { ReactComponent as DashLogo } from 'src/styling/logos/icon-dash-colour.svg'
-import { ReactComponent as EthereumLogo } from 'src/styling/logos/icon-ethereum-colour.svg'
-import { ReactComponent as LitecoinLogo } from 'src/styling/logos/icon-litecoin-colour.svg'
-import { ReactComponent as ZCashLogo } from 'src/styling/logos/icon-zcash-colour.svg'
+import { ReactComponent as LoneroLogo } from 'src/styling/logos/icon-lonero-colour.svg'
 
 const styles = {
   logo: {
@@ -38,18 +33,8 @@ const useStyles = makeStyles(styles)
 
 const getLogo = code => {
   switch (code) {
-    case 'BTC':
-      return BitcoinLogo
-    case 'BCH':
-      return BitcoinCashLogo
-    case 'DASH':
-      return DashLogo
-    case 'ETH':
-      return EthereumLogo
-    case 'LTC':
-      return LitecoinLogo
-    case 'ZEC':
-      return ZCashLogo
+    case 'LNR':
+      return LoneroLogo
     default:
       return null
   }
