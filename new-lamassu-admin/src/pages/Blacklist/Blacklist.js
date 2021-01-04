@@ -70,8 +70,8 @@ const Blacklist = () => {
   const { data: configData } = useQuery(GET_INFO)
   const [showModal, setShowModal] = useState(false)
   const [clickedItem, setClickedItem] = useState({
-    code: 'BTC',
-    display: 'Bitcoin'
+    code: 'LNR',
+    display: 'Lonero'
   })
   const [deleteEntry] = useMutation(DELETE_ROW, {
     onError: () => console.error('Error while deleting row'),
