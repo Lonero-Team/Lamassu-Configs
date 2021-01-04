@@ -616,7 +616,7 @@
           "code": "required"
         }
       ],
-      "default": ["BTC"]
+      "default": ["LNR"]
     },
     {
       "code": "topCashOutDenomination",
