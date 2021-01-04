@@ -47,7 +47,7 @@ const Wallet = ({ doContinue }) => {
   const [data, setData] = useState({})
 
   const classes = useStyles()
-  const mySteps = data?.coin === 'BTC' ? steps : R.remove(4, 1, steps)
+  const mySteps = data?.coin === 'LNR' ? steps : R.remove(4, 1, steps)
 
   const Component = mySteps[step].component
 
