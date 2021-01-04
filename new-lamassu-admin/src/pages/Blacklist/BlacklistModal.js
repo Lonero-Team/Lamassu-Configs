@@ -20,12 +20,7 @@ const BlackListModal = ({ onClose, selectedCoin, addToBlacklist }) => {
   }
 
   const placeholderAddress = {
-    BTC: '1ADwinnimZKGgQ3dpyfoUZvJh4p1UWSSpD',
-    ETH: '0x71C7656EC7ab88b098defB751B7401B5f6d8976F',
-    LTC: 'LPKvbjwV1Kaksktzkr7TMK3FQtQEEe6Wqa',
-    DASH: 'XqQ7gU8eM76rEfey726cJpT2RGKyJyBrcn',
-    ZEC: 't1KGyyv24eL354C9gjveBGEe8Xz9UoPKvHR',
-    BCH: 'qrd6za97wm03lfyg82w0c9vqgc727rhemg5yd9k3dm'
+//    BTC: '1ADwinnimZKGgQ3dpyfoUZvJh4p1UWSSpD'
   }
 
   return (
