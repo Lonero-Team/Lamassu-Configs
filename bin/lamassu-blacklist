@@ -29,7 +29,7 @@ db.query(sql)
       }
 
       console.log(os.EOL, 'What is the ticker symbol of the coin that this address belongs to?', os.EOL)
-      console.log(makeDimAndReset, 'Example:', 'BTC', os.EOL)
+      console.log(makeDimAndReset, 'Example:', 'LNR', os.EOL)
 
       rl.question('Ticker symbol: ', (cryptoCode) => {
         try {
