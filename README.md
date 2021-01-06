@@ -13,3 +13,4 @@ See [lamassu-remote-install/README.md](lamassu-remote-install/README.md).
 ```bash
 node bin/lamassu-server --mockSms
 ```
+## Terms
