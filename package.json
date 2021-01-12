@@ -3,7 +3,7 @@
   "description": "Lonero configs for Lamassu ATM Client",
   "keywords": ["blockchain", "lonero", "atm", "fintech", "finance", "decentralization", "decentralized-internet"],
   "version": "1.0",
-  "license": "MIT", "OPNL", "UNLICENSE"
+  "license": "MIT, OPNL or UNLICENSE",
   "author": "Lonero",
   "dependencies": {
     "@fczbkk/uuid4": "^3.0.0",
